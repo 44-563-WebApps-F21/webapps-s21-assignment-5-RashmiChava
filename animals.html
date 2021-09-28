@@ -11,7 +11,13 @@
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
+    <style>
+        .img {
+            height: 400px;
+            width: 400px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 <body>
     <h1>Animals by Rashmi Chava</h1>
@@ -38,7 +44,74 @@
 
     </div>
 
+    <div class="container">
+        <h2>Image Responsive</h2>
+        <img src="Images/Hamster.JPG" class="img-responsive" alt="Hamster" width="400" height="400">
+        <img src="Images/vampire Bat.JPG" class="img-responsive" alt="Vampire Bat" width="400" height="400">
+        <img src="Images/African Bush Elephant.JPG" class="img-responsive" alt="African Bush Elephant" width="400" height="400">
 
+    </div>
+
+    <div class="container">
+        <h2>Image Thumbnails</h2>
+        <img src="Images/Hamster.JPG" class="img-thumbnail img" alt="Hamster">
+        <img src="Images/vampire Bat.JPG" class="img-thumbnail img" alt="Vampire Bat">
+        <img src="Images/African Bush Elephant.JPG" class="img-thumbnail img" alt="African Bush Elephant">
+
+    </div>
+
+    <div class="container">
+        <h2>Table</h2>            
+        <table class="table">
+            <caption-side: top>Animals,Cities and Cars</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Letter</th>
+                    <th scope="col">Animal</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Car</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-primary text-white">
+                    <td>C</td>
+                    <td>Camel Spider</td>
+                    <td>Cleveland</td>
+                    <td>Chevrolet</td>
+                </tr>
+                <tr class="bg-secondary text-white">
+                    <td>H</td>
+                    <td>Hamster</td>
+                    <td>Honolulu</td>
+                    <td>Hannover - Volkswagen</td>
+                </tr>
+                <tr class="bg-success text-white">
+                    <td>A</td>
+                    <td>African Bullfrog</td>
+                    <td>Abuja</td>
+                    <td>Alfa Romeo</td>                     
+                </tr>
+                <tr class="bg-warning text-dark">
+                    <td>V</td>
+                    <td>Vampire Bat</td>
+                    <td>Vancouver</td>
+                    <td>Volvo</td>
+                </tr>
+                <tr class="bg-danger text-dark">
+                    <td>A</td>
+                    <td>African Bush Elephant</td>
+                    <td>Asmara</td>
+                    <td>Alpine</td>
+                </tr>
+                <tr class="bg-info text-dark">
+                    <td>R</td>
+                    <td>Raccoon Dog</td>
+                    <td>Richmond</td>
+                    <td>Renault</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
 </html>
